@@ -1,16 +1,104 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
     color: black;
 }
+
 .text-blue {
     color: blue;
 }
+
 .text-orange {
     color: orangered;
 }
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-light-green {
+    color: greenyellow;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-gold {
+    color: #daa520;
+}
+
+.text-light-blue {
+    color: rgb(84, 155, 255);
+}
+
+.text-purple {
+    color: rgb(100, 0, 128);
+}
+
+.text-recommended-purple {
+    color: rgb(83, 83, 255);
+}
+
+.text-white {
+    color: white;
+}
+
 ::selection {
     background-color: red;
     color: white;
+}
+
+.btn-primary {
+    all: unset;
+    background-color: #4485ff;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: #4485ff;
+}
+
+.btn-dark {
+    all: unset;
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.btn-dark:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.btn-light {
+    all: unset;
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.btn-light:hover {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.badge {
+    color: white;
+    background-color: #7f848a;
+    padding: 4px;
+    border-radius: 5px;
 }
